@@ -68,12 +68,12 @@ function App() {
                 Github
               </a>
             </div>
-            <div className="mx-4 hidden md:block">
+            <div className="mx-4 hidden md:block space-y-2">
               <a
                 href="mailto:ray.orole@gmail.com"
                 className="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-500 focus:outline-none focus:border-blue-700 focus:shadow-outline-blue active:bg-blue-700 transition duration-150 ease-in-out w-full py-2 text-white rounded text-base"
               >
-                Hire me
+                Contact me
               </a>
             </div>
           </div>
@@ -215,11 +215,24 @@ function App() {
                 <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200">
                   CI/CD
                 </span>
+                <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200">
+                  Stripe
+                </span>
+                <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200">
+                  Solidity
+                </span>
+                <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200">
+                  Web3.js
+                </span>
               </li>
             </ul>
           </div>
         </div>
       </div>
+
+      <span className="fixed bottom-2 right-2 font-medium text-gray-500 text-sm">
+        Made with Vite React + Tailwindcss
+      </span>
     </body>
   );
 }
