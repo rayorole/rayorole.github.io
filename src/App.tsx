@@ -1,8 +1,18 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 function App() {
+  const [repos, setRepos] = useState(20);
+
+  useEffect(() => {
+    fetch("https://api.github.com/users/rayorole")
+      .then((res) => res.json())
+      .then((data) => {
+        setRepos(data.public_repos);
+      });
+  }, [repos]);
+
   return (
-    <body className="">
+    <main>
       <div className="mt-6 max-w-screen-lg md:flex mx-auto">
         <div className="md:w-1/3 p-2 relative">
           <div className="md:fixed">
@@ -15,6 +25,9 @@ function App() {
                 <h1 className="text-2xl text-gray-800 font-bold">Ray Orolé</h1>
                 <div className="md:text-lg text-gray-600">
                   Backend Developer
+                </div>
+                <div className="text-xs text-gray-500">
+                  &minus; {repos} Public repositories &minus;
                 </div>
                 <div className="text-gray-600 md:hidden mt-1">
                   (ray.orole@gmail.com)
@@ -233,7 +246,7 @@ function App() {
       <span className="fixed bottom-2 right-2 font-medium text-gray-500 text-sm">
         Made with Vite React + Tailwindcss
       </span>
-    </body>
+    </main>
   );
 }
 
