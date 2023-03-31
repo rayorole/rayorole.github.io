@@ -165,6 +165,32 @@ function App() {
                   </div>
                 </div>
               </li>
+              <li className="mb-4">
+                <h2 className="text-2xl font-medium text-gray-800">
+                  NextJS Developer, DB architect and DevOps
+                </h2>
+                <div className="mt-1">
+                  <div>
+                    <i className="bx bx-buildings"></i>
+                    <small className="text-base text-gray-800">
+                      Etherspay
+                      <br />
+                      <a
+                        href="https://www.etherspay.com/"
+                        className="text-blue-400"
+                      >
+                        https://www.etherspay.com/
+                      </a>
+                    </small>
+                  </div>
+                  <div>
+                    <i className="bx bx-calendar text-sm"></i>
+                    <small className="text-sm text-gray-600">
+                      Feb 2022 - Present
+                    </small>
+                  </div>
+                </div>
+              </li>
             </ul>
           </div>
           <div className="mx-4">
