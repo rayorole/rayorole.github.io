@@ -167,7 +167,7 @@ function App() {
               </li>
               <li className="mb-4">
                 <h2 className="text-2xl font-medium text-gray-800">
-                  NextJS Developer, DB architect and DevOps
+                  Full stack Developer, DB architect and DevOps
                 </h2>
                 <div className="mt-1">
                   <div>
