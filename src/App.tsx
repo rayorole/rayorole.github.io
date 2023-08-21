@@ -24,7 +24,7 @@ function App() {
               <div className="mb-12 text-center mt-4 justify-center items-center">
                 <h1 className="text-2xl text-gray-800 font-bold">Ray Orolé</h1>
                 <div className="md:text-lg text-gray-600">
-                  Backend Developer
+                  Fullstack Developer
                 </div>
                 <div className="text-xs text-gray-500">
                   &minus; {repos} Public repositories &minus;
@@ -152,16 +152,20 @@ function App() {
               </li>
               <li className="mb-4">
                 <h2 className="text-2xl font-medium text-gray-800">
-                  IT Support Internship
+                  AG Insurance - Internship
                 </h2>
                 <div className="mt-1">
                   <div>
                     <i className="bx bx-buildings"></i>
-                    <small className="text-base text-gray-800">XX. BvBa</small>
+                    <small className="text-base text-gray-800">
+                      AG Insurance
+                    </small>
                   </div>
                   <div className="">
                     <i className="bx bx-calendar"></i>
-                    <small className="text-sm text-gray-600">1 Month</small>
+                    <small className="text-sm text-gray-600">
+                      July 2023 - Aug 2023
+                    </small>
                   </div>
                 </div>
               </li>
@@ -226,6 +230,9 @@ function App() {
                 </span>
                 <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200">
                   ReactJS
+                </span>
+                <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200">
+                  Laravel
                 </span>
                 <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200">
                   TailwindCSS
