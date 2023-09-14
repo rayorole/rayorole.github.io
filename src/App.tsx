@@ -24,7 +24,7 @@ function App() {
               <div className="mb-12 text-center mt-4 justify-center items-center">
                 <h1 className="text-2xl text-gray-800 font-bold">Ray Orolé</h1>
                 <div className="md:text-lg text-gray-600">
-                  Fullstack Developer
+                  Student Developer
                 </div>
                 <div className="text-xs text-gray-500">
                   &minus; {repos} Public repositories &minus;
@@ -152,7 +152,7 @@ function App() {
               </li>
               <li className="mb-4">
                 <h2 className="text-2xl font-medium text-gray-800">
-                  AG Insurance - Internship
+                  AG Insurance - Student job
                 </h2>
                 <div className="mt-1">
                   <div>
