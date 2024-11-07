@@ -119,8 +119,25 @@ function App() {
                   <div>
                     <i className="bx bx-calendar text-sm"></i>
                     <small className="text-sm text-gray-600">
-                      Sept 2021 - Present
+                      Finished in 2023
                     </small>
+                  </div>
+                </div>
+              </li>
+              <li className="mb-4">
+                <h2 className="text-2xl font-medium text-gray-800">
+                  CompSci Student
+                </h2>
+                <div className="mt-1">
+                  <div>
+                    <i className="bx bx-buildings"></i>
+                    <small className="text-base text-gray-800">
+                      KdG, Antwerp
+                    </small>
+                  </div>
+                  <div>
+                    <i className="bx bx-calendar text-sm"></i>
+                    <small className="text-sm text-gray-600">Ongoing</small>
                   </div>
                 </div>
               </li>
@@ -171,7 +188,7 @@ function App() {
               </li>
               <li className="mb-4">
                 <h2 className="text-2xl font-medium text-gray-800">
-                  Full stack Developer, DB architect and DevOps
+                  Full stack Developer
                 </h2>
                 <div className="mt-1">
                   <div>
@@ -190,7 +207,33 @@ function App() {
                   <div>
                     <i className="bx bx-calendar text-sm"></i>
                     <small className="text-sm text-gray-600">
-                      Feb 2022 - Present
+                      Feb 2022 - 2023
+                    </small>
+                  </div>
+                </div>
+              </li>
+              <li className="mb-4">
+                <h2 className="text-2xl font-medium text-gray-800">
+                  PumpAI.Finance Smart contract Developer
+                </h2>
+                <div className="mt-1">
+                  <div>
+                    <i className="bx bx-buildings"></i>
+                    <small className="text-base text-gray-800">
+                      Pumpai.finance
+                      <br />
+                      <a
+                        href="https://www.pumpai.finance/"
+                        className="text-blue-400"
+                      >
+                        https://www.pumpai.finance/
+                      </a>
+                    </small>
+                  </div>
+                  <div>
+                    <i className="bx bx-calendar text-sm"></i>
+                    <small className="text-sm text-gray-600">
+                      Feb 2022 - 2023
                     </small>
                   </div>
                 </div>
@@ -203,9 +246,6 @@ function App() {
               <li className="mb-6 flex flex-wrap">
                 <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200">
                   Python
-                </span>
-                <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200">
-                  Django
                 </span>
                 <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200">
                   PHP
@@ -223,12 +263,6 @@ function App() {
                   ExpressJS
                 </span>
                 <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200">
-                  Code Principles
-                </span>
-                <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200">
-                  System Analysis
-                </span>
-                <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200">
                   ReactJS
                 </span>
                 <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200">
@@ -239,9 +273,6 @@ function App() {
                 </span>
                 <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200">
                   Sass
-                </span>
-                <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200">
-                  Mail Server
                 </span>
                 <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200">
                   Mysql/MariaDB
