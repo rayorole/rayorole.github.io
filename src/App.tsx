@@ -100,6 +100,15 @@ function App() {
               giving priority simplicity of code.
             </p>
           </div>
+          <div className="mx-4 mb-6">
+            <h1 className="mb-4 text-4xl text-gray-700 font-bold">Interests</h1>
+            <p className="text-lg">
+              I am highly passionate about blockchain technology and its use
+              cases. I love building web applications and APIs, and I am always
+              looking for ways to improve my skills. My favorite stack is
+              Typescript, NextJS and MySQL.
+            </p>
+          </div>
           <div className="mx-4">
             <h1 className="mb-4 text-4xl text-gray-700 font-bold">
               Experience
