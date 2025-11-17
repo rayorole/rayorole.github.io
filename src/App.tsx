@@ -221,32 +221,6 @@ function App() {
                   </div>
                 </div>
               </li>
-              <li className="mb-4">
-                <h2 className="text-2xl font-medium text-gray-800">
-                  PumpAI.Finance Smart contract Developer
-                </h2>
-                <div className="mt-1">
-                  <div>
-                    <i className="bx bx-buildings"></i>
-                    <small className="text-base text-gray-800">
-                      Pumpai.finance
-                      <br />
-                      <a
-                        href="https://www.pumpai.finance/"
-                        className="text-blue-400"
-                      >
-                        https://www.pumpai.finance/
-                      </a>
-                    </small>
-                  </div>
-                  <div>
-                    <i className="bx bx-calendar text-sm"></i>
-                    <small className="text-sm text-gray-600">
-                      Feb 2022 - 2023
-                    </small>
-                  </div>
-                </div>
-              </li>
             </ul>
           </div>
           <div className="mx-4">
