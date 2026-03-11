@@ -152,7 +152,7 @@ function App() {
               </li>
               <li className="mb-4">
                 <h2 className="text-2xl font-medium text-gray-800">
-                  Full Stack Developer
+                  Web Developer
                 </h2>
                 <div className="mt-1">
                   <div>
@@ -172,6 +172,32 @@ function App() {
                     <i className="bx bx-calendar text-sm"></i>
                     <small className="text-sm text-gray-600">
                       Feb 2022 - Mar 2023
+                    </small>
+                  </div>
+                </div>
+              </li>
+              <li className="mb-4">
+                <h2 className="text-2xl font-medium text-gray-800">
+                  Web Developer
+                </h2>
+                <div className="mt-1">
+                  <div>
+                    <i className="bx bx-buildings"></i>
+                    <small className="text-base text-gray-800">
+                      Slagerij Asselberghs
+                      <br />
+                      <a
+                        href="https://www.slagerijasselberghs.be/"
+                        className="text-blue-400"
+                      >
+                        https://www.slagerijasselberghs.be/
+                      </a>
+                    </small>
+                  </div>
+                  <div>
+                    <i className="bx bx-calendar text-sm"></i>
+                    <small className="text-sm text-gray-600">
+                      Mar 2025 - Apr 2025
                     </small>
                   </div>
                 </div>
@@ -203,7 +229,7 @@ function App() {
                   <div>
                     <i className="bx bx-buildings"></i>
                     <small className="text-base text-gray-800">
-                      Etherspay
+                      Etherspay, Personal project
                       <br />
                       <a
                         href="https://www.etherspay.com/"
@@ -217,6 +243,32 @@ function App() {
                     <i className="bx bx-calendar text-sm"></i>
                     <small className="text-sm text-gray-600">
                       Feb 2022 - 2023
+                    </small>
+                  </div>
+                </div>
+              </li>
+               <li className="mb-4">
+                <h2 className="text-2xl font-medium text-gray-800">
+                  CRM Developer Student Job
+                </h2>
+                <div className="mt-1">
+                  <div>
+                    <i className="bx bx-buildings"></i>
+                    <small className="text-base text-gray-800">
+                      At-Com Belgium
+                      <br />
+                      <a
+                        href="https://at-com.be/"
+                        className="text-blue-400"
+                      >
+                       https://at-com.be/
+                      </a>
+                    </small>
+                  </div>
+                  <div>
+                    <i className="bx bx-calendar text-sm"></i>
+                    <small className="text-sm text-gray-600">
+                      July 2025 - August 2025
                     </small>
                   </div>
                 </div>
